@@ -1,0 +1,436 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.h3 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: #333;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.line div {
+  border: 2px solid red;
+}
+
+.line .div_1 {
+  background-color: #f3413e;
+  width: 15px;
+  height: 15px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.line .div_2 {
+  width: 150px;
+}
+
+.p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  padding: 0px;
+  line-height: 27px;
+  margin-top: 12px;
+}
+
+.btn_box .btn {
+  border: 2px solid #f3413e;
+  color: white;
+  border-radius: 0px;
+  padding: 0.4rem 2rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn_box .btn:first-child {
+  background-color: #f3413e;
+  margin-right: 2rem;
+}
+
+.btn_box .btn:first-child:hover {
+  background-color: transparent;
+}
+
+.btn_box .btn:nth-child(2n):hover {
+  background-color: #f3413e;
+  color: white;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  cursor: pointer;
+}
+
+.inner img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.navbar {
+  padding: 0.3rem rem 2rem;
+}
+
+.navbar .navbar-brand img {
+  width: 40%;
+}
+
+.index_header .item .child_div {
+  width: 100%;
+  height: 82vh;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("https://mrdeepak8461-pro.github.io/hotel/images/rooms1.jpg");
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+  background-position: top;
+  -webkit-box-shadow: 0 10px -6px #000;
+          box-shadow: 0 10px -6px #000;
+}
+
+.index_header .item .child_div .container {
+  height: 100%;
+}
+
+.index_header .item .child_div .container .inner_child_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+
+.index_header .item .child_div .container .inner_child_div .inner_child_div_box .line {
+  padding: 1rem 0rem;
+}
+
+.index_header .item .child_div .container .inner_child_div .inner_child_div_box h2 {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 2.8rem;
+  word-spacing: 3px;
+}
+
+.index_header .item .child_div .container .inner_child_div .inner_child_div_box h2 span {
+  color: #f3413e;
+}
+
+.index_header .item .child_div .container .inner_child_div .inner_child_div_box p {
+  font-size: 1.2rem;
+  margin-right: 2rem !important;
+  letter-spacing: 1px;
+}
+
+.index_header .item_child_2 .child_div {
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("https://mrdeepak8461-pro.github.io/hotel/images/index_img_2.jpeg");
+  background-size: 100%;
+}
+
+.index_header .item_child_3 .child_div {
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("https://mrdeepak8461-pro.github.io/hotel/images/sports1.jpg");
+  background-size: 100%;
+}
+
+.what_we_do {
+  margin-top: 3rem;
+}
+
+.what_we_do .cards_box {
+  margin-top: 2rem;
+}
+
+.what_we_do .cards_box .card {
+  border: none;
+}
+
+.what_we_do .cards_box .card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.what_we_do .cards_box .card .card-body .card-title {
+  color: #f3413e;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  font-size: 1.3rem;
+}
+
+.what_we_do .cards_box .card .card-body .line {
+  padding: 0rem 0rem 0.5rem 0rem;
+}
+
+.what_we_do .cards_box .card .card-body .card-text {
+  color: #333;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.what_we_do .cards_box .card:hover {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.what_we_do .cards_box .card:hover .line .div_1 {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.about_giselle {
+  margin-top: 3rem;
+}
+
+.about_giselle img {
+  width: 100%;
+  height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  border-radius: 0.5rem;
+}
+
+.about_giselle .h3 {
+  font-size: 2rem;
+}
+
+.about_giselle .p {
+  font-size: 1rem;
+}
+
+.about_giselle .btn_box .btn:hover {
+  background-color: transparent;
+  color: #f3413e;
+}
+
+.videos {
+  background-color: #f1f1f1;
+  padding: 2rem 0rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.videos iframe {
+  border-radius: 0.2rem;
+  width: 100%;
+  height: 500px;
+}
+
+.videos .btn {
+  margin-top: 2rem;
+}
+
+.videos .btn:hover {
+  background-color: transparent;
+  color: #f3413e;
+}
+
+.our_specialists {
+  margin-top: 3rem;
+}
+
+.our_specialists ul {
+  margin: 2rem 0rem;
+}
+
+.our_specialists ul li .nav-link {
+  border: 1px solid #333;
+  margin-right: 0.8rem;
+  color: #333;
+}
+
+.our_specialists ul li .active {
+  background-color: #f3413e !important;
+  border: 1px solid #f3413e;
+}
+
+.our_specialists .tz-gallery img {
+  width: 100%;
+  height: 250px;
+  margin: 0.6rem 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  border-radius: 0.2rem;
+}
+
+.wedding_and_event {
+  margin-top: 3rem;
+  background-color: #f1f1f1;
+  padding: 2rem 0rem;
+}
+
+.wedding_and_event .row {
+  margin-top: 3rem;
+}
+
+.wedding_and_event .row .card {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.wedding_and_event .row .card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wedding_and_event .row .card h5 {
+  font-weight: bold;
+  color: black;
+}
+
+.wedding_and_event .row .card p {
+  color: black;
+}
+
+.wedding_and_event .row .card i {
+  color: #f3413e;
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+.enquiry_form {
+  margin-top: 3rem;
+}
+
+.enquiry_form form {
+  margin-top: 3rem;
+}
+
+.enquiry_form form .btn {
+  margin-top: 2rem;
+}
+
+.enquiry_form form .btn:hover {
+  background-color: transparent;
+  color: #f3413e;
+}
+
+.footer {
+  margin-top: 3rem;
+}
+
+.footer .footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer .footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer .footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer .footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer .footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer .footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer .footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer .footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer .footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer .footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer .footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */

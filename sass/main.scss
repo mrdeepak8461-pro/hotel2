@@ -79,9 +79,15 @@ $color_4: #f1f1f1;
 .navbar {
     padding: 0.3rem rem 2rem;
     .navbar-brand {
-        img {
-            width: 40%;
+        h1{
+            letter-spacing: 2px;
+            
         }
+       h1::first-letter{
+           color: #f3413e;
+           font-weight: bold;
+           font-size: 2.5rem;
+       } 
     }
 }
 

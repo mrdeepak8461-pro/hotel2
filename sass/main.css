@@ -151,11 +151,14 @@ body {
 }
 
 .index_header .item_child_2 .child_div {
+
   background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/jimbg.jpg");
   background-size: 100%;
+ 
 }
 
 .index_header .item_child_3 .child_div {
+
   background: linear-gradient(120deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%), url("../images/sportsbg.jpg");
   background-size: 100%;
 }

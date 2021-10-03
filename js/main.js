@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.owl-carousel-1').owlCarousel({
     loop:true,
     nav:false,
     autoplay:true,
@@ -17,6 +17,34 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
+
+$('.owl-carousel-2').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:true,
+    animateOut: 'fadeOut',
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+});
+
+$('.owl-carousel-3').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:true,
+    animateOut: 'fadeOut',
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+});
 
 baguetteBox.run('.tz-gallery');
 
